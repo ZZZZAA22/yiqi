@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Yiqi Network</title>
+  <rect width="64" height="64" rx="15" fill="#087F83"/>
+  <path d="M18 18L32 33L46 18M32 33V48" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

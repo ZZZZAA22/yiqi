@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 540" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Products, parcels, and connected commerce</title>
+  <desc id="desc">An original illustration of two parcels, a product card, and a storefront connected by a curved route.</desc>
+  <defs>
+    <linearGradient id="field" x1="190" y1="80" x2="511" y2="476" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2F8FA"/>
+      <stop offset="1" stop-color="#E5F0F4"/>
+    </linearGradient>
+    <linearGradient id="top" x1="190" y1="184" x2="421" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF5F7"/>
+    </linearGradient>
+    <linearGradient id="side" x1="317" y1="298" x2="454" y2="416" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7E6EC"/>
+      <stop offset="1" stop-color="#C3D8E1"/>
+    </linearGradient>
+    <filter id="card-shadow" x="-35%" y="-25%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#122F43" flood-opacity=".08"/>
+    </filter>
+    <filter id="ground-shadow" x="-25%" y="-100%" width="150%" height="300%">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
+  </defs>
+
+  <path d="M106 183C106 103 171 56 278 63L427 74C522 81 579 136 564 238L543 380C533 455 465 497 376 489L227 477C131 469 77 420 87 329L106 183Z" fill="url(#field)"/>
+  <path d="M140 355C87 309 86 234 151 185C216 137 335 123 442 145C530 163 576 216 567 270" stroke="#BDD2DB" stroke-width="1.5" stroke-dasharray="5 8"/>
+  <path d="M129 374C174 426 316 459 446 428" stroke="#BDD2DB" stroke-width="1.5" stroke-dasharray="5 8"/>
+  <circle cx="135" cy="361" r="5" fill="#087F83"/>
+  <circle cx="564" cy="275" r="5" fill="#EEA087"/>
+
+  <g transform="rotate(-9 143 173)" filter="url(#card-shadow)">
+    <rect x="86" y="107" width="114" height="139" rx="12" fill="white"/>
+    <rect x="96" y="117" width="94" height="87" rx="6" fill="#E9F2F2"/>
+    <path d="M124 144H162L169 187H117L124 144Z" fill="#087F83"/>
+    <path d="M134 146V139C134 134 138 130 143 130C148 130 152 134 152 139V146" stroke="#122F43" stroke-width="3" stroke-linecap="round"/>
+    <path d="M132 158L143 169L154 158M143 169V178" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M100 218H156" stroke="#CBD9DF" stroke-width="5" stroke-linecap="round"/>
+    <path d="M100 230H132" stroke="#E2EAEF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g transform="rotate(8 474 142)" filter="url(#card-shadow)">
+    <rect x="420" y="94" width="108" height="94" rx="12" fill="white"/>
+    <path d="M443 128H505V166H443V128Z" fill="#ECF4F8" stroke="#122F43" stroke-width="1.5"/>
+    <path d="M440 127L446 114H502L508 127" fill="#087F83"/>
+    <path d="M440 127H454V130C454 134 451 137 447 137C443 137 440 134 440 130V127Z" fill="#087F83"/>
+    <path d="M454 127H468V130C468 134 465 137 461 137C457 137 454 134 454 130V127Z" fill="#DDEDEB"/>
+    <path d="M468 127H482V130C482 134 479 137 475 137C471 137 468 134 468 130V127Z" fill="#087F83"/>
+    <path d="M482 127H496V130C496 134 493 137 489 137C485 137 482 134 482 130V127Z" fill="#DDEDEB"/>
+    <path d="M496 127H508V130C508 134 506 137 502 137C499 137 496 134 496 130V127Z" fill="#087F83"/>
+    <path d="M452 147H470V158H452V147Z" fill="white" stroke="#C0D6DE"/>
+    <path d="M483 146H496V166H483V146Z" fill="white" stroke="#C0D6DE"/>
+  </g>
+
+  <ellipse cx="321" cy="438" rx="137" ry="24" fill="#122F43" opacity=".12" filter="url(#ground-shadow)"/>
+  <path d="M182 231L317 303V435L182 362V231Z" fill="#F8FBFC" stroke="#B8CFD9" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="M317 303L452 231V362L317 435V303Z" fill="url(#side)" stroke="#B8CFD9" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="M182 231L317 159L452 231L317 303L182 231Z" fill="url(#top)" stroke="#B8CFD9" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="M256 192L283 177L418 249L391 264L256 192Z" fill="#087F83"/>
+  <path d="M391 264L418 249V380L391 395V264Z" fill="#076B73"/>
+  <path d="M197 239L317 303L437 239" stroke="white" stroke-opacity=".65" stroke-width="1.5"/>
+  <path d="M317 171V205M327 177V207" stroke="#D1E0E6" stroke-width="1.5"/>
+
+  <g transform="matrix(1 .54 0 1 211 278)">
+    <rect width="71" height="65" rx="3" fill="white" stroke="#D7E3E8"/>
+    <path d="M12 12L22 22L32 12M22 22V34" stroke="#087F83" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M44 14H59M44 21H59M44 28H54" stroke="#B6CAD3" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M12 45H58" stroke="#CADAE1" stroke-width="2.5"/>
+    <path d="M13 51V57M18 51V57M22 51V57M29 51V57M33 51V57M38 51V57M44 51V57M48 51V57M55 51V57M59 51V57" stroke="#6B8898" stroke-width="1.8"/>
+  </g>
+
+  <ellipse cx="477" cy="451" rx="69" ry="14" fill="#122F43" opacity=".11" filter="url(#ground-shadow)"/>
+  <path d="M408 381L471 415V473L408 439V381Z" fill="#087F83"/>
+  <path d="M471 415L533 381V439L471 473V415Z" fill="#066C75"/>
+  <path d="M408 381L471 347L533 381L471 415L408 381Z" fill="#29989A"/>
+  <path d="M441 363L455 356L518 389L504 397L441 363Z" fill="#F2B29B"/>
+  <path d="M504 397L518 389V447L504 455V397Z" fill="#DB927D"/>
+  <path d="M426 417L452 431M426 424L443 433" stroke="#A1D1D0" stroke-width="2" stroke-linecap="round"/>
+  <path d="M471 415V472" stroke="#005963" stroke-opacity=".45"/>
+
+  <path d="M121 293H134M127.5 286.5V299.5" stroke="#9EBCC9" stroke-width="2" stroke-linecap="round"/>
+  <path d="M361 98H374M367.5 91.5V104.5" stroke="#A5C4CE" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="554" cy="339" r="4" stroke="#A5C4CE" stroke-width="1.5"/>
+  <circle cx="227" cy="471" r="4" fill="#EEA087"/>
+</svg>
